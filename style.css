@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10vh;
+}
+a{
+    color: white;
+}
+a:hover{
+text-decoration: underline;
+}
+header>h1{
+    font-size: 5em;
+}
+section{
+    padding: 20vh;
+    font-size: 2em;
+}
+section.imagem{
+    color: white;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.211);
+    display: inline-block;
+    padding: 5px;
+}
+section#img01{
+    background-image: url(imagens/imgFlor.jpg);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(imagens/imgLivro.jpg);
+    background-position: left center;
+}
+
+footer{
+    background-color: black;       
+    color: white;
+    text-align: center;
+    padding: 3vh;
+}
